@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>GLM Window Tinting | 3M Auto, Home &amp; Commercial Tint in El Paso, TX</title>
+<meta name="description" content="3M authorized window tinting on N Mesa in El Paso since 2012. Automotive, windshield, residential and commercial film. Text your year, make and model for a quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="GLM Window Tinting, home">
+      <svg class="brand-mark" viewBox="0 0 132 40" role="img" aria-hidden="true">
+        <path d="M4 31c4 0 7-1 10-3 1-6 6-10 13-10 3 0 5 1 7 2 6-7 15-11 28-11 12 0 21 3 29 9 7 0 17 2 25 6 7 3 11 5 12 9h-6c-1-5-6-8-11-8s-10 3-11 8H44c-1-5-6-8-11-8s-10 3-11 8H8c-3 0-4-1-4-2z" fill="currentColor"/>
+      </svg>
+      <span class="brand-text">
+        <strong>GLM</strong>
+        <em data-en="Window Tinting" data-es="Polarizado de Ventanas">Window Tinting</em>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main">
+      <a href="#services"  data-en="Services"    data-es="Servicios">Services</a>
+      <a href="#shade"     data-en="Tint Levels" data-es="Niveles de Tinte">Tint Levels</a>
+      <a href="#work"      data-en="Our Work"    data-es="Trabajos">Our Work</a>
+      <a href="#visit"     data-en="Visit Us"    data-es="Visítanos">Visit Us</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Cambiar a español">
+        <span class="lang-on">EN</span><span class="lang-off">ES</span>
+      </button>
+      <a class="btn btn-call" href="tel:+19157277342">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z"/></svg>
+        <span>(915) 727-7342</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" data-en="3M window tint · El Paso, TX"
+                         data-es="Polarizado 3M · El Paso, TX">3M window tint · El Paso, TX</p>
+
+      <h1 data-en="Beat the El Paso sun. Keep the view."
+          data-es="Gánale al sol de El Paso. Sin perder la vista.">Beat the El Paso sun. Keep the view.</h1>
+
+      <p class="hero-sub"
+         data-en="3M carbon &amp; ceramic film for your car, home or storefront. Text your year, make and model and we send a price the same day."
+         data-es="Película de carbón y cerámica 3M para tu carro, casa o local. Manda tu año, marca y modelo y te damos precio el mismo día.">
+         3M carbon &amp; ceramic film for your car, home or storefront. Text your year, make and model and we send a price the same day.</p>
+
+      <ul class="hero-points">
+        <li data-en="Blocks 99% of UV for a cooler cabin and less fade" data-es="Bloquea 99% de UV para una cabina más fresca y menos decoloración">Blocks 99% of UV for a cooler cabin and less fade</li>
+        <li data-en="Carbon &amp; 3M ceramic · lifetime warranty" data-es="Carbón y cerámica 3M · garantía de por vida">Carbon &amp; 3M ceramic · lifetime warranty</li>
+        <li data-en="Most cars done same day · no appointment needed" data-es="La mayoría de carros el mismo día · sin cita también">Most cars done same day · no appointment needed</li>
+      </ul>
+    </div>
+
+    <!-- Quote card -->
+    <div class="quote-card" id="quote">
+      <div class="quote-head">
+        <h2 data-en="Get a tint quote" data-es="Pide una cotización">Get a tint quote</h2>
+        <p data-en="About a minute. We text back a price for your exact vehicle or glass, usually same day."
+           data-es="Como un minuto. Te contestamos con precio para tu vehículo o vidrio exacto, normalmente el mismo día.">About a minute. We text back a price for your exact vehicle or glass, usually same day.</p>
+      </div>
+
+      <form id="quoteForm" novalidate>
+        <div class="field">
+          <label for="qName" data-en="Your name" data-es="Tu nombre">Your name</label>
+          <input id="qName" name="name" type="text" autocomplete="name" required>
+          <span class="err" data-en="Please enter your name" data-es="Por favor escribe tu nombre">Please enter your name</span>
+        </div>
+
+        <div class="field">
+          <label for="qPhone" data-en="Phone number" data-es="Número de teléfono">Phone number</label>
+          <input id="qPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(915) 000-0000" required>
+          <span class="err" data-en="Please enter a valid phone number" data-es="Escribe un número de teléfono válido">Please enter a valid phone number</span>
+        </div>
+
+        <div class="field">
+          <label for="qJob" data-en="What needs tint?" data-es="¿Qué se va a polarizar?">What needs tint?</label>
+          <select id="qJob" name="job" required>
+            <option value="" data-en="Select one…" data-es="Selecciona una…">Select one…</option>
+            <option value="full-vehicle" data-en="Full vehicle"                data-es="Vehículo completo">Full vehicle</option>
+            <option value="front-two"    data-en="Front two windows"           data-es="Dos ventanas delanteras">Front two windows</option>
+            <option value="windshield"   data-en="Windshield"                  data-es="Parabrisas">Windshield</option>
+            <option value="sunstrip"     data-en="Sun strip or visor"           data-es="Visera o franja">Sun strip or visor</option>
+            <option value="remove"       data-en="Remove old tint and add new" data-es="Quitar tinte viejo y volver a polarizar">Remove old tint and add new</option>
+            <option value="home"         data-en="Home windows"                data-es="Ventanas de casa">Home windows</option>
+            <option value="commercial"   data-en="Business or storefront"        data-es="Negocio o local">Business or storefront</option>
+            <option value="unsure"       data-en="Not sure, need advice"       data-es="No estoy seguro, necesito consejo">Not sure, need advice</option>
+          </select>
+          <span class="err" data-en="Please choose an option" data-es="Elige una opción">Please choose an option</span>
+        </div>
+
+        <div class="field">
+          <label for="qVehicle" data-en="Year, make &amp; model (or type of glass)" data-es="Año, marca y modelo (o tipo de vidrio)">Year, make &amp; model (or type of glass)</label>
+          <input id="qVehicle" name="vehicle" type="text" placeholder="2021 BMW M2 / front picture window" required>
+          <span class="err" data-en="Tell us the vehicle or glass" data-es="Dinos el vehículo o el vidrio">Tell us the vehicle or glass</span>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="qFilm" data-en="Film type" data-es="Tipo de película">Film type</label>
+            <select id="qFilm" name="film">
+              <option value=""         data-en="Select…"            data-es="Selecciona…">Select…</option>
+              <option value="standard" data-en="Standard"           data-es="Estándar">Standard</option>
+              <option value="carbon"   data-en="Carbon"             data-es="Carbón">Carbon</option>
+              <option value="ceramic"  data-en="3M Ceramic"         data-es="Cerámica 3M">3M Ceramic</option>
+              <option value="unsure"   data-en="Not sure"           data-es="No estoy seguro">Not sure</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="qWhen" data-en="When?" data-es="¿Cuándo?">When?</label>
+            <select id="qWhen" name="when">
+              <option value=""         data-en="Select…"          data-es="Selecciona…">Select…</option>
+              <option value="thisweek" data-en="This week"        data-es="Esta semana">This week</option>
+              <option value="weekend"  data-en="This Saturday"    data-es="Este sábado">This Saturday</option>
+              <option value="nextweek" data-en="Next week"        data-es="La próxima semana">Next week</option>
+              <option value="flexible" data-en="I'm flexible"     data-es="Soy flexible">I'm flexible</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field field-inline">
+          <input id="qSpanish" name="spanish" type="checkbox">
+          <label for="qSpanish" data-en="Contact me in Spanish" data-es="Contáctenme en español">Contact me in Spanish</label>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit"
+                data-en="Get my tint quote" data-es="Enviar mi cotización">Get my tint quote</button>
+
+        <p class="form-foot">
+          <span data-en="Or call / text:" data-es="O llama / textea:">Or call / text:</span>
+          <a href="tel:+19157277342">(915) 727-7342</a>
+        </p>
+      </form>
+
+      <div class="quote-success" id="quoteSuccess" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+        <h3 data-en="Got it. We'll text you a price." data-es="Listo. Te mandamos un precio por texto.">Got it. We'll text you a price.</h3>
+        <p data-en="Usually same day, with a slot to come in. For a faster answer, call or text (915) 727-7342."
+           data-es="Normalmente el mismo día, con un espacio para venir. Para una respuesta más rápida, llama o textea al (915) 727-7342.">Usually same day, with a slot to come in. For a faster answer, call or text (915) 727-7342.</p>
+        <p class="demo-note" data-en="Demo only. This form is not connected to text or email yet."
+                             data-es="Solo demostración. Este formulario aún no está conectado a texto o correo.">Demo only. This form is not connected to text or email yet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRUST BAR ══ -->
+<section class="trustbar" aria-label="Why tint with GLM">
+  <div class="wrap trust-grid">
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2 7 7M17 17l1.8 1.8M18.8 5.2 17 7M7 17l-1.8 1.8"/></svg>
+      <p><strong data-en="Rejects the heat" data-es="Rechaza el calor">Rejects the heat</strong>
+         <span data-en="3M carbon &amp; ceramic for a cooler cabin and less A/C" data-es="Carbón y cerámica 3M para una cabina más fresca y menos A/C">3M carbon &amp; ceramic for a cooler cabin and less A/C</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+      <p><strong data-en="Blocks 99% of UV" data-es="Bloquea 99% de UV">Blocks 99% of UV</strong>
+         <span data-en="Guards your skin; stops seats &amp; dash fading" data-es="Protege tu piel; evita que asientos y tablero se decoloren">Guards your skin; stops seats &amp; dash fading</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="m8.5 13.5-2 7.5 5.5-3 5.5 3-2-7.5"/><path d="m9.3 9 1.9 1.9L15 7.2"/></svg>
+      <p><strong data-en="Lifetime warranty" data-es="Garantía de por vida">Lifetime warranty</strong>
+         <span data-en="3M authorized film with no fade, bubble or purple" data-es="Película autorizada 3M sin decoloración, burbujas ni morado">3M authorized film with no fade, bubble or purple</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8-4.3-4.1 5.9-.9L12 3Z"/></svg>
+      <p><strong data-en="4.5&#9733; since 2012" data-es="4.5&#9733; desde 2012">4.5&#9733; since 2012</strong>
+         <span data-en="~70 reviews · same shop on N Mesa St" data-es="~70 reseñas · el mismo taller en N Mesa St">~70 reviews · same shop on N Mesa St</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TINT LEVELS / SHADE PICKER ══ -->
+<section class="section section-alt" id="shade">
+  <div class="wrap">
+    <div class="section-head section-head-center">
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="Tint levels" data-es="Niveles de tinte">Tint levels</p>
+      <h2 data-en="See the shade before we cut it" data-es="Mira el tono antes de cortarlo">See the shade before we cut it</h2>
+      <p class="section-sub"
+         data-en="Tint darkness is measured as VLT, how much visible light gets through. A lower number means darker glass. Tap a level to preview it on a side window."
+         data-es="La oscuridad del tinte se mide como VLT, o sea cuánta luz visible pasa. Un número más bajo significa vidrio más oscuro. Toca un nivel para verlo en una ventana lateral.">
+         Tint darkness is measured as VLT, how much visible light gets through. A lower number means darker glass. Tap a level to preview it on a side window.</p>
+    </div>
+
+    <div class="shade">
+      <div class="shade-window" aria-hidden="true">
+        <svg viewBox="0 0 400 250" class="shade-svg">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#6fb0dd"/><stop offset="1" stop-color="#cfe6f2"/>
+            </linearGradient>
+            <clipPath id="glass"><path d="M40 26 L300 20 Q330 20 336 46 L352 200 Q356 224 330 224 L58 224 Q40 224 38 202 Z"/></clipPath>
+          </defs>
+          <g clip-path="url(#glass)">
+            <rect x="30" y="14" width="336" height="216" fill="url(#sky)"/>
+            <circle cx="292" cy="66" r="19" fill="#FCE9A8"/>
+            <path d="M30 176 l52 -70 22 30 26 -44 30 60 34 -40 40 66 62 -58 40 54 v56 H30 Z" fill="#C9C0Ad"/>
+            <path d="M30 196 l60 -46 40 28 46 -34 52 34 44 -24 44 30 v46 H30 Z" fill="#a9a08c"/>
+            <rect x="30" y="210" width="336" height="30" fill="#8f8874"/>
+            <rect id="tintFilm" x="30" y="14" width="336" height="216" fill="#050f0a" opacity="0.44"/>
+            <path d="M60 24 L150 232" stroke="#ffffff" stroke-width="26" opacity=".07"/>
+          </g>
+          <path d="M40 26 L300 20 Q330 20 336 46 L352 200 Q356 224 330 224 L58 224 Q40 224 38 202 Z"
+                fill="none" stroke="#0B0F0C" stroke-width="7"/>
+          <path d="M40 26 L300 20 Q330 20 336 46 L352 200 Q356 224 330 224 L58 224 Q40 224 38 202 Z"
+                fill="none" stroke="#2b2f2a" stroke-width="2"/>
+        </svg>
+        <span class="shade-readout"><b id="shadeVLT">35%</b> <span id="shadeName" data-en="VLT · medium" data-es="VLT · medio">VLT · medium</span></span>
+      </div>
+
+      <div class="shade-controls">
+        <p class="shade-q" data-en="How dark?" data-es="¿Qué tan oscuro?">How dark?</p>
+        <div class="shade-scale" role="group" aria-label="Choose a tint level">
+          <button type="button" class="shade-btn" data-vlt="70" data-op="0.10" data-en="70%" data-es="70%">70%</button>
+          <button type="button" class="shade-btn" data-vlt="50" data-op="0.26" data-en="50%" data-es="50%">50%</button>
+          <button type="button" class="shade-btn is-on" data-vlt="35" data-op="0.44" data-en="35%" data-es="35%">35%</button>
+          <button type="button" class="shade-btn" data-vlt="20" data-op="0.66" data-en="20%" data-es="20%">20%</button>
+          <button type="button" class="shade-btn" data-vlt="5"  data-op="0.88" data-en="5%"  data-es="5%">5%</button>
+        </div>
+        <ul class="shade-notes">
+          <li data-en="70% to 50% is nearly clear. It blocks heat and UV with almost no darkness, the usual pick for windshields."
+              data-es="70% a 50% es casi transparente. Bloquea calor y UV casi sin oscurecer, lo usual para parabrisas.">70% to 50% is nearly clear. It blocks heat and UV with almost no darkness, the usual pick for windshields.</li>
+          <li data-en="35% is medium. A visible tint you can still see out of clearly at night."
+              data-es="35% es medio. Un tinte visible por el que aún ves bien de noche.">35% is medium. A visible tint you can still see out of clearly at night.</li>
+          <li data-en="20% to 5% is dark to limo. Maximum privacy, darkest on the back glass."
+              data-es="20% a 5% es oscuro a limo. Máxima privacidad, lo más oscuro en el vidrio trasero.">20% to 5% is dark to limo. Maximum privacy, darkest on the back glass.</li>
+        </ul>
+        <p class="shade-legal" data-en="Texas limits how dark front side windows can be. We tint to your spec and go over what's street legal when you come in. Confirm current law for your vehicle."
+                               data-es="Texas limita qué tan oscuras pueden ir las ventanas laterales delanteras. Polarizamos a tu gusto y te explicamos lo permitido cuando vienes. Confirma la ley vigente para tu vehículo.">Texas limits how dark front side windows can be. We tint to your spec and go over what's street legal when you come in. Confirm current law for your vehicle.</p>
+        <a class="btn btn-primary" href="#quote" data-en="Quote this shade" data-es="Cotizar este tono">Quote this shade</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="What we tint" data-es="Lo que polarizamos">What we tint</p>
+      <h2 data-en="One shop, every kind of glass" data-es="Un taller, todo tipo de vidrio">One shop, every kind of glass</h2>
+    </div>
+
+    <ul class="svc-grid">
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h2l2-6h10l2 6h2M5 13v4h2M17 17h2v-4M7 17h10M8 17a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm11 0a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/></svg>
+        <h3 data-en="Automotive tint" data-es="Polarizado automotriz">Automotive tint</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7c4-2 14-2 18 0M3 7l1.5 9h15L21 7M3 12h18"/></svg>
+        <h3 data-en="Windshield &amp; sun strips" data-es="Parabrisas y viseras">Windshield &amp; sun strips</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3s7 4 7 11a7 7 0 0 1-14 0c0-7 7-11 7-11ZM9 15a3 3 0 0 0 3 3"/></svg>
+        <h3 data-en="3M ceramic heat rejection" data-es="Cerámica 3M contra el calor">3M ceramic heat rejection</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V9l8-5 8 5v11M4 20h16M9 20v-6h6v6M4 12h16"/></svg>
+        <h3 data-en="Home windows" data-es="Ventanas de casa">Home windows</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v15M4 21h16M8 21V9h3v12M13 9h3v12M4 11h16"/></svg>
+        <h3 data-en="Storefront &amp; office" data-es="Local y oficina">Storefront &amp; office</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V5h6v2M6 7l1 13h10l1-13M10 11v6M14 11v6"/></svg>
+        <h3 data-en="Old tint removal" data-es="Remoción de tinte viejo">Old tint removal</h3>
+      </li>
+    </ul>
+    <p class="svc-note" data-en="Bubbled, purple or peeling film pulled off and replaced with fresh 3M, all done in the shop."
+                        data-es="Película con burbujas, morada o despegada. La quitamos y ponemos 3M nueva, en el taller.">Bubbled, purple or peeling film pulled off and replaced with fresh 3M, all done in the shop.</p>
+  </div>
+</section>
+
+<!-- ══ PACKAGES ══ -->
+<section class="section section-alt" id="pricing">
+  <div class="wrap">
+    <div class="section-head section-head-center">
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="Popular packages" data-es="Paquetes populares">Popular packages</p>
+      <h2 data-en="Straight tint pricing" data-es="Precios claros de polarizado">Straight tint pricing</h2>
+      <p class="section-sub"
+         data-en="Starting points below. Final price depends on your vehicle, how many windows, the film line and any old tint to strip. You get the exact number before you book."
+         data-es="Puntos de inicio abajo. El precio final depende de tu vehículo, cuántas ventanas, la línea de película y si hay tinte viejo que quitar. Recibes el número exacto antes de reservar.">
+         Starting points below. Final price depends on your vehicle, how many windows, the film line and any old tint to strip. You get the exact number before you book.</p>
+    </div>
+
+    <ul class="price-grid">
+      <li class="price">
+        <p class="price-name" data-en="Front two windows" data-es="Dos ventanas delanteras">Front two windows</p>
+        <p class="price-fig"><span class="price-from" data-en="from" data-es="desde">from</span>$XX</p>
+        <p class="price-desc" data-en="Match your existing back tint, kill the afternoon glare, done in under an hour."
+                              data-es="Igualamos el tinte trasero, quitamos el reflejo de la tarde, listo en menos de una hora.">Match your existing back tint, kill the afternoon glare, done in under an hour.</p>
+        <a class="btn btn-ghost btn-block" href="#quote" data-en="Quote front two" data-es="Cotizar delanteras">Quote front two</a>
+      </li>
+      <li class="price price-feature">
+        <span class="price-tag" data-en="Most booked" data-es="Más reservado">Most booked</span>
+        <p class="price-name" data-en="Full vehicle in carbon" data-es="Vehículo completo en carbón">Full vehicle in carbon</p>
+        <p class="price-fig"><span class="price-from" data-en="from" data-es="desde">from</span>$XXX</p>
+        <p class="price-desc" data-en="Every side and rear window in carbon film that stays colour stable. Lifetime warranty against fade, bubble and peel."
+                              data-es="Cada ventana lateral y trasera en película de carbón que no se decolora. Garantía de por vida contra decoloración, burbujas y despegue.">Every side and rear window in carbon film that stays colour stable. Lifetime warranty against fade, bubble and peel.</p>
+        <a class="btn btn-primary btn-block" href="#quote" data-en="Quote full vehicle" data-es="Cotizar vehículo completo">Quote full vehicle</a>
+      </li>
+      <li class="price">
+        <p class="price-name" data-en="3M ceramic upgrade" data-es="Mejora a cerámica 3M">3M ceramic upgrade</p>
+        <p class="price-fig price-fig-quote" data-en="Quote" data-es="Cotización">Quote</p>
+        <p class="price-desc" data-en="Top tier 3M ceramic for maximum heat and infrared rejection. Same look, a much cooler cabin. Also for homes and storefronts."
+                              data-es="Cerámica 3M de gama alta para máximo rechazo de calor e infrarrojo. Mismo aspecto, cabina mucho más fresca. También para casas y locales.">Top tier 3M ceramic for maximum heat and infrared rejection. Same look, a much cooler cabin. Also for homes and storefronts.</p>
+        <a class="btn btn-ghost btn-block" href="#quote" data-en="Ask about ceramic" data-es="Preguntar por cerámica">Ask about ceramic</a>
+      </li>
+    </ul>
+    <p class="price-disclaimer"
+       data-en="Dollar figures on this concept page are placeholders, not a GLM offer. Real pricing is quoted per vehicle and per glass when you contact the shop."
+       data-es="Las cifras en dólares de esta página conceptual son de ejemplo, no una oferta de GLM. El precio real se cotiza por vehículo y por vidrio cuando contactas al taller.">
+       Dollar figures on this concept page are placeholders, not a GLM offer. Real pricing is quoted per vehicle and per glass when you contact the shop.</p>
+  </div>
+</section>
+
+<!-- ══ HOW IT WORKS ══ -->
+<section class="section section-dark" id="how">
+  <div class="wrap">
+    <div class="section-head section-head-center section-head-light">
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="How it goes" data-es="Cómo funciona">How it goes</p>
+      <h2 data-en="Drop it off, pick it up tinted" data-es="Déjalo, recógelo polarizado">Drop it off, pick it up tinted</h2>
+    </div>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step-n">01</span>
+        <h3 data-en="Send the details" data-es="Manda los datos">Send the details</h3>
+        <p data-en="Year, make, model and the shade you want. We text a price and the next open slot."
+           data-es="Año, marca, modelo y el tono que quieres. Te contestamos con precio y el siguiente espacio.">Year, make, model and the shade you want. We text a price and the next open slot.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">02</span>
+        <h3 data-en="We tint it" data-es="Lo polarizamos">We tint it</h3>
+        <p data-en="Most cars take about two to three hours. Grab lunch on N Mesa or wait in the lobby."
+           data-es="La mayoría de los carros toman de dos a tres horas. Come algo en N Mesa o espera en la sala.">Most cars take about two to three hours. Grab lunch on N Mesa or wait in the lobby.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">03</span>
+        <h3 data-en="Cure &amp; warranty" data-es="Curado y garantía">Cure &amp; warranty</h3>
+        <p data-en="Leave the windows up a few days while the film cures. Your 3M lifetime warranty is registered to you."
+           data-es="Deja las ventanas arriba unos días mientras cura la película. Tu garantía de por vida 3M queda registrada a tu nombre.">Leave the windows up a few days while the film cures. Your 3M lifetime warranty is registered to you.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══ WORK GALLERY ══ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="Recent work" data-es="Trabajos recientes">Recent work</p>
+      <h2 data-en="Tinted around El Paso" data-es="Polarizados por todo El Paso">Tinted around El Paso</h2>
+    </div>
+    <div class="carousel" id="workCarousel" aria-roledescription="carousel" aria-label="Recent GLM tint jobs">
+      <div class="carousel-viewport" id="carouselViewport">
+        <ul class="carousel-track" id="carouselTrack">
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g0-m2-front.jpg" width="1050" height="1400" style="object-position:center 60%"
+                 alt="Grey BMW M2 with freshly tinted windows parked below the GLM Window Tinting sign, Franklin Mountains behind">
+            <span class="slide-cap" data-en="BMW M2 · full carbon tint" data-es="BMW M2 · polarizado de carbón completo">BMW M2 · full carbon tint</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g3-windshield.jpg" width="1600" height="1196" loading="lazy"
+                 alt="View through a Lexus windshield with light tint, markings showing 70 percent VLT">
+            <span class="slide-cap" data-en="Lexus ES · 70% windshield" data-es="Lexus ES · parabrisas 70%">Lexus ES · 70% windshield</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g1-m2-rear.jpg" width="1125" height="1500" loading="lazy" style="object-position:center 40%"
+                 alt="Rear three quarter view of a grey BMW M2 with dark tinted rear glass at the GLM shop">
+            <span class="slide-cap" data-en="BMW M2 · dark rear glass" data-es="BMW M2 · vidrio trasero oscuro">BMW M2 · dark rear glass</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g2-bmw-door.jpg" width="1125" height="1500" loading="lazy" style="object-position:center 42%"
+                 alt="Open door of a white BMW 2 Series showing a freshly tinted front side window">
+            <span class="slide-cap" data-en="BMW 2 Series · front windows" data-es="BMW Serie 2 · ventanas delanteras">BMW 2 Series · front windows</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g4-tesla-shop.jpg" width="1050" height="1400" loading="lazy" style="object-position:center 55%"
+                 alt="Tesla door open inside the GLM shop with tint film laid across the glass during the install">
+            <span class="slide-cap" data-en="Tesla · install in progress" data-es="Tesla · instalación en progreso">Tesla · install in progress</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g5-residential.jpg" width="1050" height="1400" loading="lazy"
+                 alt="Large residential picture window tinted by GLM, reflecting sky and a stone wall">
+            <span class="slide-cap" data-en="Home picture window · glare cut" data-es="Ventana panorámica de casa · menos reflejo">Home picture window · glare cut</span>
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel-btn carousel-prev" type="button" aria-label="Previous photo" aria-controls="carouselTrack">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg>
+      </button>
+      <button class="carousel-btn carousel-next" type="button" aria-label="Next photo" aria-controls="carouselTrack">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose a photo"></div>
+    </div>
+    <p class="gallery-note" data-en="Photos from recent GLM jobs (@glm_windowtint)."
+                            data-es="Fotos de trabajos recientes de GLM (@glm_windowtint).">Photos from recent GLM jobs (@glm_windowtint).</p>
+  </div>
+</section>
+
+<!-- ══ VISIT US ══ -->
+<section class="section section-alt" id="visit">
+  <div class="wrap area-grid">
+    <div>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="eyebrow" data-en="Visit us" data-es="Visítanos">Visit us</p>
+      <h2 data-en="On N Mesa, no appointment needed" data-es="En N Mesa, sin cita también">On N Mesa, no appointment needed</h2>
+
+      <ul class="visit-facts">
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.3 7-12a7 7 0 0 0-14 0c0 5.7 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <span data-en="4300 N Mesa St, El Paso, TX 79902" data-es="4300 N Mesa St, El Paso, TX 79902">4300 N Mesa St, El Paso, TX 79902</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z"/></svg>
+          <span><a href="tel:+19157277342">(915) 727-7342</a></span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span data-en="Monday to Saturday · confirm current hours" data-es="Lunes a sábado · confirma el horario actual">Monday to Saturday · confirm current hours</span>
+        </li>
+      </ul>
+
+      <p class="visit-copy"
+         data-en="Corner of the Mesa Smoke Shop and Franco Auto Electric center. Look for the GLM sign and the auto tint flags. Serving all of El Paso and the borderland:"
+         data-es="En el centro comercial del Mesa Smoke Shop y Franco Auto Electric. Busca el letrero de GLM y las banderas de auto tint. Servimos todo El Paso y la frontera:">
+         Corner of the Mesa Smoke Shop and Franco Auto Electric center. Look for the GLM sign and the auto tint flags. Serving all of El Paso and the borderland:</p>
+      <ul class="area-list">
+        <li>West Side</li><li>Central</li><li>Northeast</li><li>Lower Valley</li>
+        <li>East Side</li><li>Horizon City</li><li>Canutillo</li>
+        <li>Sunland Park, NM</li><li>Santa Teresa, NM</li>
+      </ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://maps.google.com/?q=4300+N+Mesa+St,+El+Paso,+TX+79902" target="_blank" rel="noopener" data-en="Get directions" data-es="Cómo llegar">Get directions</a>
+        <a class="btn btn-ghost" href="sms:+19157277342" data-en="Text a photo of your car" data-es="Manda una foto de tu carro">Text a photo of your car</a>
+      </div>
+    </div>
+
+    <div class="visit-map">
+      <span class="visit-map-tag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+        4300 N Mesa St
+      </span>
+      <iframe
+        title="Map to GLM Window Tinting, 4300 N Mesa St, El Paso, TX 79902"
+        src="https://maps.google.com/maps?q=GLM%20Window%20Tinting%2C%204300%20N%20Mesa%20St%2C%20El%20Paso%2C%20TX%2079902&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FINAL CTA ══ -->
+<section class="finalcta">
+  <div class="wrap finalcta-inner">
+    <h2 data-en="Text us your year, make and model."
+        data-es="Mándanos tu año, marca y modelo.">Text us your year, make and model.</h2>
+    <p data-en="Price back the same day. Then bring it to N Mesa."
+       data-es="Te regresamos el precio el mismo día. Luego tráelo a N Mesa.">Price back the same day. Then bring it to N Mesa.</p>
+    <div class="cta-row cta-row-center">
+      <a class="btn btn-primary btn-lg" href="#quote" data-en="Get my tint quote" data-es="Enviar mi cotización">Get my tint quote</a>
+      <a class="btn btn-ghost btn-lg" href="sms:+19157277342" data-en="Text (915) 727-7342" data-es="Texto al (915) 727-7342">Text (915) 727-7342</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="brand brand-footer">
+        <svg class="brand-mark" viewBox="0 0 132 40" role="img" aria-hidden="true">
+          <path d="M3 29c17 1 31-1 44-8 12-9 29-13 47-11 13 1 26 6 35 16-10-7-22-11-35-12-16-1-31 2-43 10-10 6-30 8-48 5z" fill="currentColor"/>
+          <path d="M20 22c9-11 24-17 41-16 15 1 29 7 38 18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+        </svg>
+        <span class="brand-text"><strong>GLM</strong><em>Window Tinting</em></span>
+      </div>
+      <p class="foot-note">
+        <span data-en="Window tinting · El Paso, TX" data-es="Polarizado de ventanas · El Paso, TX">Window tinting · El Paso, TX</span><br>
+        <span data-en="3M authorized · automotive, home &amp; commercial" data-es="Autorizado 3M · automotriz, hogar y comercial">3M authorized · automotive, home &amp; commercial</span>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="Quote" data-es="Cotizar">Quote</h4>
+      <p>
+        <a href="tel:+19157277342" data-en="Call (915) 727-7342" data-es="Llama (915) 727-7342">Call (915) 727-7342</a><br>
+        <a href="sms:+19157277342" data-en="Text (915) 727-7342" data-es="Texto (915) 727-7342">Text (915) 727-7342</a><br>
+        <a href="#quote" data-en="Quote form" data-es="Formulario de cotización">Quote form</a>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="See more" data-es="Ver más">See more</h4>
+      <p>
+        <a href="https://www.instagram.com/glm_windowtint/" target="_blank" rel="noopener">Instagram @glm_windowtint</a><br>
+        <a href="https://www.facebook.com/GlmWindowTint" target="_blank" rel="noopener">Facebook /GlmWindowTint</a>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="Find us" data-es="Encuéntranos">Find us</h4>
+      <p><span data-en="4300 N Mesa St" data-es="4300 N Mesa St">4300 N Mesa St</span><br>
+         <span data-en="El Paso, TX 79902" data-es="El Paso, TX 79902">El Paso, TX 79902</span><br>
+         <span class="demo-inline" data-en="(confirm hours)" data-es="(confirmar horario)">(confirm hours)</span></p>
+    </div>
+  </div>
+
+  <div class="wrap footer-base">
+    <p>© <span id="yr">2026</span> GLM Window Tinting · El Paso, TX</p>
+    <p class="spec-note" data-en="Concept site prepared for GLM Window Tinting. Not an official page."
+                         data-es="Sitio conceptual preparado para GLM Window Tinting. No es una página oficial.">Concept site prepared for GLM Window Tinting. Not an official page.</p>
+  </div>
+</footer>
+
+<!-- ══ STICKY MOBILE BAR ══ -->
+<div class="mobile-bar">
+  <a class="btn btn-ghost mb-btn" href="#quote" data-en="Quote" data-es="Cotizar">Quote</a>
+  <a class="btn btn-ghost mb-btn" href="sms:+19157277342" data-en="Text" data-es="Texto">Text</a>
+  <a class="btn btn-primary mb-btn" href="tel:+19157277342">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z"/></svg>
+    <span data-en="Call" data-es="Llamar">Call</span>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
